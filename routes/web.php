@@ -11,7 +11,7 @@ Route::get('/about', function () {
 })->name('about');
 
 Route::get('/courses', function () {
-    return view('courses');
+    return view('pages.courses');
 })->name('courses');
 
 Route::get('/trainers', function () {
