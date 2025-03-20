@@ -24,6 +24,7 @@
     </nav>
 </div> {{-- End Page Title --}}
 
+{{-- Trainers Section --}}
 <section id="trainers" class="section trainers">
     <div class="container">
         <div class="row gy-5">
@@ -131,5 +132,8 @@
     </div>
 
 </section>
+{{-- Trainers Section --}}
+
+
 
 @endsection
