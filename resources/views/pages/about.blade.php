@@ -9,7 +9,7 @@
       <div class="container">
         <div class="row d-flex justify-content-center text-center">
           <div class="col-lg-8">
-            <h1>About Us</h1>
+            <h1>Sobre Nos</h1>
             <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem...</p>
           </div>
         </div>
@@ -19,7 +19,7 @@
       <div class="container">
         <ol>
           <li><a href="{{ route('home') }}">Home</a></li>
-          <li class="current">About Us</li>
+          <li class="current">Sobre Nos</li>
         </ol>
       </div>
     </nav>
