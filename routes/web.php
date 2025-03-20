@@ -19,7 +19,7 @@ Route::get('/trainers', function () {
 })->name('trainers');
 
 Route::get('/events', function() {
-    return view('events');
+    return view('pages.events');
 })->name('events');
 
 Route::get('/pricing', function () {

@@ -134,6 +134,4 @@
 </section>
 {{-- Trainers Section --}}
 
-
-
 @endsection
