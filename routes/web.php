@@ -15,7 +15,7 @@ Route::get('/courses', function () {
 })->name('courses');
 
 Route::get('/trainers', function () {
-    return view('trainers');
+    return view('pages.trainers');
 })->name('trainers');
 
 Route::get('/events', function() {
