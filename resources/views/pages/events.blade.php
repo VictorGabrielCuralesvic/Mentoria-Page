@@ -26,5 +26,39 @@
 </div> {{-- End Page Title --}}
 
 {{-- Events Section --}}
+<section id="events" class="events section">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch">\
+                <div class="card">
+                    <div class="card-img">
+                        <img src="assets/img/events-item-1.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="">Introdução ao website</a></h5>
+                        <p class="fst-italic text-center">Segunda, Dia 26 de Outubro as 19:00</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+                    </div>
+                </div>
+            </div> {{-- End Event Card --}}
+
+            
+            <div class="col-md-6 d-flex align-items-stretch">
+                <div  class="card">
+                    <div class="card-img">
+                        <img src="assets/img/events-item-2.jpg" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="">Estrategia de Marketing</a></h5>
+                        <p class="fst-italic text-center">Segunda, 15 de Novembro as 19:00</p>
+                        <p class="card-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo</p>
+                    </div>
+                </div>
+            </div> {{-- End Event Card --}}
+        </div> 
+
+    </div>
+</section>
+{{-- Events Section End --}}
 
 @endsection
