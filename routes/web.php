@@ -27,6 +27,6 @@ Route::get('/pricing', function () {
 })->name('pricing');
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('pages.contact');
 })->name('contact');
 
