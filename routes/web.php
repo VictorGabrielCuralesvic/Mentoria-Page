@@ -23,7 +23,7 @@ Route::get('/events', function() {
 })->name('events');
 
 Route::get('/pricing', function () {
-    return view('pricing');
+    return view('pages.pricing');
 })->name('pricing');
 
 Route::get('/contact', function () {
