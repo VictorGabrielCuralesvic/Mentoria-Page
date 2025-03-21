@@ -58,9 +58,39 @@
                   <p>info@example.com</p>
                 </div>
               </div> {{-- End Info Item --}}
+
+              <div class="col-lg-8">
+                <form action="/app/forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                    <div class="row gy-4">
+                        <div class="col-md-6">
+                            <input type="text" name="name" class="form-control" placeholder="Seu Nome" required="">
+                        </div>
+
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="email" placeholder="Seu Email" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <input type="text" class="form-control" name="subject" placeholder="Assunto" required="">
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea class="form-control" name="message" rows="6" placeholder="Mensagem" required=""></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Sua Mensagem foi enviada! Obrigado!</div>
+                            
+                            <button type="submit">Enviar Mensagem</button>
+                        </div>
+                    </div>
+                </form>
+              </div> {{-- End Contact Form --}}
         </div>
     </div>
 
-</section>
+</section> {{-- /Contact Section --}}
 
 @endsection
