@@ -2,7 +2,7 @@
 
 $receiving_email_address = 'contact@exameple.com';
 
-if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php')) {
+if( file_exists($php_email_form = __DIR__ . '/../../assets/vendor/php-email-form/php-email-form.php')) {
     include( $php_email_form);
 } else {
     die( 'Impossivel de carregar o PHP Email Form library');
